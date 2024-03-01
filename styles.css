@@ -1,2 +1,30 @@
+.holder {
+	display: grid;
+	grid-template-columns: repeat(2, 100px);
+	/* 1st. The number of time you want to repeat this pattern
+	   2nd. The side of each column/row element */
+	grid-template-rows: repeat(2, 100px);
+}
+ 
 
-/* Your CSS Code here. */
+  .item {
+  width: 100px;
+  height: 100px;
+  font-size: 3rem;
+}
+
+  .item-1 {
+  background: red;
+}
+ 
+  .item-2 {
+  background: blue;
+}
+ 
+  .item-3 {
+  background: green;
+ }
+
+  .item-4{
+  background-color: magenta;
+  }
